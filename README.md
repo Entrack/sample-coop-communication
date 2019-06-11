@@ -4,7 +4,7 @@ This is a double-agent setup with one randomly chosen to know the correct side o
 
 **The WebGL live version is avaliable [here](https://entrack.github.io/Agent-Cooperative-Communication/).**  
 
-![](GitImages/run.gif)
+![](docs/images/run.gif)
 
 ### Environment
 The double-sided corridor's upper and bottom walls are randomly selected to be either rewarding or penalizing. The agent gets rewarded or penalized every time it touches the wall. Every agent also shares the reward of another one, and he is penalized for the speech.  
@@ -12,4 +12,4 @@ Agents have some kind of substitute of a short memory in way of repeating the la
 
 ### Training
 The training was performed using the ML-Agents implementation of the PPO algorithm. As you can see from the illustration below, cumulative reward stops increasing and agent converges while reaching the maximum possible value at 30k iterations.  
-![](GitImages/reward_grah.jpg)
+![](docs/images/reward_grah.jpg)
